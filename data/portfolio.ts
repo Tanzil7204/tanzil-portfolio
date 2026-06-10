@@ -133,7 +133,7 @@ export const portfolioData = {
       date: "April 2025",
 
       link:
-        "https://ude.my/UC-449ed356-56d1-4f0d-9242-82970805ad6b",
+        "https://drive.google.com/file/d/1la27X7MTlCdcQCSIh95OYckT5cadI83k/view?usp=sharing",
     },
 
     {

@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { useEffect, useState } from "react";
+import { portfolioData } from "../data/portfolio"; // ✅ FIX ADDED
 
 export default function Hero() {
   const titles = [
@@ -48,14 +49,17 @@ export default function Hero() {
       {/* BACKGROUND */}
       <div className="absolute inset-0 bg-gradient-to-br from-black via-[#001014] to-black" />
 
+      {/* GLOWS */}
       <div className="absolute top-[-100px] left-[-100px] w-[500px] h-[500px] bg-cyan-500/20 blur-[120px] rounded-full" />
       <div className="absolute bottom-[-100px] right-[-100px] w-[500px] h-[500px] bg-purple-500/20 blur-[120px] rounded-full" />
 
+      {/* MAIN */}
       <div className="max-w-7xl w-full grid lg:grid-cols-2 gap-16 items-center relative z-10">
 
-        {/* LEFT */}
+        {/* LEFT SIDE */}
         <div>
 
+          {/* TAG */}
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -64,7 +68,7 @@ export default function Hero() {
             EMBEDDED AI ENGINEER
           </motion.p>
 
-          {/* ✅ FIXED NAME (EXACTLY 2 LINES) */}
+          {/* NAME */}
           <motion.h1
             initial={{ opacity: 0, x: -60 }}
             animate={{ opacity: 1, x: 0 }}
@@ -91,21 +95,34 @@ export default function Hero() {
           {/* ICONS */}
           <div className="flex gap-6 mt-8">
 
-            <a className="w-16 h-16 rounded-2xl border border-cyan-500/40 flex items-center justify-center hover:scale-110 transition">
-              <FaGithub size={32} />
+            <a
+              href={portfolioData.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-16 h-16 rounded-2xl border border-cyan-500/40 flex items-center justify-center hover:scale-110 transition"
+            >
+              <FaGithub size={34} />
             </a>
 
-            <a className="w-16 h-16 rounded-2xl border border-cyan-500/40 flex items-center justify-center hover:scale-110 transition">
-              <FaLinkedin size={32} />
+            <a
+              href={portfolioData.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-16 h-16 rounded-2xl border border-cyan-500/40 flex items-center justify-center hover:scale-110 transition"
+            >
+              <FaLinkedin size={34} />
             </a>
 
-            <a className="w-16 h-16 rounded-2xl border border-cyan-500/40 flex items-center justify-center hover:scale-110 transition">
-              <MdEmail size={34} />
+            <a
+              href={`mailto:${portfolioData.email}`}
+              className="w-16 h-16 rounded-2xl border border-cyan-500/40 flex items-center justify-center hover:scale-110 transition"
+            >
+              <MdEmail size={36} />
             </a>
 
           </div>
 
-          {/* BUTTONS */}
+          {/* BUTTON */}
           <div className="flex gap-4 mt-10">
 
             <a
@@ -114,6 +131,7 @@ export default function Hero() {
             >
               Download Resume
             </a>
+
           </div>
 
         </div>
