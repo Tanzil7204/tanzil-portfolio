@@ -6,7 +6,7 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 18px; /* 🔥 increases ALL text globally */
+  font-size: 16px; /* 🔥 increases ALL text globally */
 }
 
 body {
