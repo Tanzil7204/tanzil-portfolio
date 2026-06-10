@@ -1,15 +1,28 @@
 @import "tailwindcss";
 
+/* =========================
+   GLOBAL SETTINGS
+========================= */
+
 html {
   scroll-behavior: smooth;
+  font-size: 18px; /* 🔥 increases ALL text globally */
 }
 
 body {
   background: #050816;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+
+  /* 🔥 improves readability */
+  font-size: 1.05rem;
+  line-height: 1.7;
 }
+
+/* =========================
+   UTILITY CLASSES
+========================= */
 
 .gradient-text {
   background: linear-gradient(to right, #00f5ff, #6c63ff);
@@ -28,7 +41,7 @@ body {
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: 3rem; /* 🔥 increased from 2.5rem */
   font-weight: bold;
   margin-bottom: 2rem;
 }

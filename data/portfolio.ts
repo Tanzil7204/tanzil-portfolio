@@ -7,7 +7,7 @@ export const portfolioData = {
     "Embedded Systems & AI Engineer | Computer Vision, IoT & Thermal Systems Researcher",
 
   bio:
-    "Electronics and Communication Engineering student passionate about Embedded Systems, Artificial Intelligence, Computer Vision, IoT, and intelligent thermal management systems.",
+    "Passionate Electronics and Communication Engineering student specializing in Embedded Systems, Artificial Intelligence, IoT, Computer Vision, and intelligent thermal management systems. I focus on building real-world engineering solutions that combine hardware and software intelligence. My core strength lies in designing embedded architectures using microcontrollers like ESP8266/ESP32, integrating sensors, and developing real-time monitoring systems. I have hands-on experience in AI-driven automation, computer vision data workflows, and IoT-based data acquisition systems. I enjoy working at the intersection of hardware efficiency and intelligent software systems. My research interest includes thermoelectric cooling systems, energy-efficient embedded design, and adaptive control systems for real-time applications. I aim to contribute to next-generation intelligent embedded systems that solve practical engineering problems in automation, energy optimization, and smart sensing.",
 
   email: "tanzilmestri7204@gmail.com",
 
@@ -52,7 +52,7 @@ export const portfolioData = {
       degree: "Bachelor of Engineering (B.E.)",
       institution: "KLS VDIT, Haliyal",
       duration: "2022 - 2026",
-      score: "CGPA: 8.5",
+      score: "CGPA: 8.66",
       field: "Electronics and Communication Engineering",
     },
 
@@ -95,7 +95,7 @@ export const portfolioData = {
         "AI Model Testing",
         "Data Optimization",
       ],
-
+      certificate: "https://www.linkedin.com/posts/mohammadtanzil_traineeengineer-softwaredevelopment-bestperformer-activity-7467801342816870400-Xhfo?utm_source=share&utm_medium=member_android&rcm=ACoAAEC1rhEBHcJ8C7fO98A4wixPUeoemjDRM3k"
     },
 
   ],
@@ -136,6 +136,17 @@ export const portfolioData = {
         "https://ude.my/UC-449ed356-56d1-4f0d-9242-82970805ad6b",
     },
 
+    {
+      title: "Techgium 9th Edition",
+
+      issuer: "L&T Technology Services",
+
+      date: "May 2026",
+
+      link:
+        "https://www.linkedin.com/posts/mohammadtanzil_techgium-ltts-innovation-activity-7468246001116467200-v9bN?utm_source=share&utm_medium=member_android&rcm=ACoAAEC1rhEBHcJ8C7fO98A4wixPUeoemjDRM3k",
+    },
+
   ],
 
 
@@ -166,7 +177,7 @@ export const portfolioData = {
     ],
 
     link:
-      "https://ipindiaservices.gov.in/publicsearch",
+      "https://www.linkedin.com/posts/mohammadtanzil_patentpublication-innovation-research-activity-7470052175776215040-L4Sv?utm_source=share&utm_medium=member_android&rcm=ACoAAEC1rhEBHcJ8C7fO98A4wixPUeoemjDRM3k",
 
   },
 
